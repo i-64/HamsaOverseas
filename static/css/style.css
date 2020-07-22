@@ -52,3 +52,8 @@
   margin-bottom: 20px;
   border-radius: 10px;
 }
+
+.itemImg{
+  width: 600px;
+  height: auto;
+}
