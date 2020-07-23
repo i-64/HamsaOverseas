@@ -64,3 +64,24 @@ body{
   width: 600px;
   height: auto;
 }
+
+.topButton {
+  display: none;
+  position: fixed;
+  right: 12px;
+  bottom: 90px;
+  color: #fff;
+  margin-top: 12px;
+  z-index: 100;
+  opacity: 0.8;
+  background-color: #222222;
+}
+
+.topButton:hover {
+  color: white;
+  opacity: 1;
+}
+
+.buttonDisplay {
+  display: block;
+}
