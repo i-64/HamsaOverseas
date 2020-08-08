@@ -4,6 +4,16 @@ body{
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+.navLogo{
+  width:400px;
+  height:50px;
+}
+@media only screen and (max-width: 450px) {
+  .navLogo{
+    width:200px;
+    height:40px;
+  }
+}
 
 .carouselImg {
   width: 100vw;
