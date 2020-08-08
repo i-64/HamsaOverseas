@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.navLogo{
+  width:400px;
+  height:50px;
+}
+@media only screen and (max-width: 450px) {
+  .navLogo{
+    width:200px;
+    height:40px;
+  }
+}
+
+.carouselImg {
+  width: 100vw;
+  height: 90vh;
+  background-size: cover;
+  /* opacity: 0.8; */
+}
+
+.button {
+  color: white;
+  background-color: #b30000;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #b30000;
+}
+
+.button:hover {
+  color: #b30000;
+  background-color: white;
+}
+
+/* .carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+} */
+
+.card{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.product_img{
+  width: 100%;
+  height: 300px;
+}
+
+.categoryImg{
+  width: 100%;
+  height: 200px;
+}
+.form_border{
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.itemImg{
+  width: 600px;
+  height: auto;
+}
+
+.topButton {
+  display: none;
+  position: fixed;
+  right: 12px;
+  bottom: 90px;
+  color: #fff;
+  margin-top: 12px;
+  z-index: 100;
+  opacity: 0.8;
+  background-color: #222222;
+}
+
+.topButton:hover {
+  color: white;
+  opacity: 1;
+}
+
+.buttonDisplay {
+  display: block;
+}
