@@ -24,15 +24,15 @@ body{
 
 .button {
   color: white;
-  background-color: #6351ce;
+  background-color: #b30000;
   border-radius: 6px;
   border-width: 2px;
   border-style: solid;
-  border-color: #6351ce;
+  border-color: #b30000;
 }
 
 .button:hover {
-  color: #6351ce;
+  color: #b30000;
   background-color: white;
 }
 
