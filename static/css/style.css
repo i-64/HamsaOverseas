@@ -17,9 +17,38 @@ body{
 
 .carouselImg {
   width: 100vw;
-  height: 90vh;
+  height: 92vh;
   background-size: cover;
-  /* opacity: 0.8; */
+}
+
+.carouselImgAbout {
+  width: 100vw;
+  height: 76vh;
+  background-size: cover;
+}
+
+.certificationImg{
+  width: 100%; height: 160px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .carouselImg {
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+  }
+  .carouselImgAbout {
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+  }
+
+  .certificationImg{
+    width: 100%; height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .button {
