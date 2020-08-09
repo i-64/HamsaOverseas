@@ -124,3 +124,9 @@ body{
 .buttonDisplay {
   display: block;
 }
+
+.productItemCarouselImg{
+width: 700px;
+height: auto;
+
+}
