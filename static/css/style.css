@@ -35,6 +35,10 @@ html,body{
   text-align: left;
 }
 
+.aboutMotto{
+  font-size: 34px;
+}
+
 @media only screen and (max-width: 600px) {
   .carouselImg {
     width: 100vw;
@@ -55,6 +59,10 @@ html,body{
 
   .footerTextAlign{
     text-align: center !important;
+  }
+
+  .aboutMotto{
+    font-size: 28px;
   }
 }
 
