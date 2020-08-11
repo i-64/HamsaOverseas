@@ -1,111 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Hamsa Overseas</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/static/css/style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Hamsa Overseas</title>
-  <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="/static/css/style.css" />
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("navbar.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
 
-  <script src="/static/js/jquery-3.3.1.js"></script>
-  <script src="/static/js/popper.min.js"></script>
-  <script src="/static/js/bootstrap.min.js"></script>
-  <script>
-    $(function () {
-      $("#header").load("navbar.html");
-      $("#footer").load("footer.html");
-    });
-  </script>
-</head>
-
-<body>
-  <div id="header"></div>
-  <div style="height: 60px;"></div>
-  <section>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block carouselImg"
-            src="/static/img/home_slider/1.webp"
-            alt="First slide" />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Caption 1</h3>
+  <body>
+    <div id="header"></div>
+    <div style="height: 60px;"></div>
+    <section>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="3000"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block carouselImg"
+              src="/static/img/home_slider/1.webp"
+              alt="First slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Caption 1</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block carouselImg"
+              src="/static/img/home_slider/2.webp"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Caption 2</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block carouselImg"
+              src="/static/img/home_slider/3.webp"
+              alt="Third slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Caption 3</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block carouselImg"
+              src="/static/img/home_slider/4.webp"
+              alt="Fourth slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Caption 4</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block carouselImg"
+              src="/static/img/home_slider/5.webp"
+              alt="Fifth slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Caption 5</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block carouselImg"
+              src="/static/img/home_slider/6.webp"
+              alt="Sixth slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Caption 6</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block carouselImg"
+              src="/static/img/home_slider/7.webp"
+              alt="Sixth slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Caption 7</h3>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block carouselImg"
-            src="/static/img/home_slider/2.webp"
-            alt="Second slide" />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Caption 2</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block carouselImg"
-            src="/static/img/home_slider/3.webp"
-            alt="Third slide" />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Caption 3</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block carouselImg"
-            src="/static/img/home_slider/4.webp"
-            alt="Fourth slide" />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Caption 4</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block carouselImg"
-            src="/static/img/home_slider/5.webp"
-            alt="Fifth slide" />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Caption 5</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block carouselImg"
-            src="/static/img/home_slider/6.webp"
-            alt="Sixth slide" />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Caption 6</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block carouselImg"
-            src="/static/img/home_slider/7.webp"
-            alt="Sixth slide" />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Caption 7</h3>
-          </div>
-        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </section>
-  <br />
+    </section>
+    <br />
 
-  <!-- <section>
+    <!-- <section>
     <div class="container mx-auto">
       <div class="row">
         <div class="col-sm-4 px-4 my-3">
@@ -137,135 +171,158 @@
     <br /><br />
   </section> -->
 
-  <section class="container">
-    <div class="p-5">
+    <section class="container">
       <h1 class="text-center">About Us</h1>
       <br />
-      <p style="text-align: justify; font-size: 18px;">
-        Hamsa Overseas is established with the objective of providing
-        high-quality Spices, herbs, oil seeds, fresh fruits & vegetables and
-        multiple agro products under one roof complying with export quality
-        standards & specification of different countries across the globe. We
-        have 3 generations of rich experience in trading and rearing farms and
-        orchards. Implementing new technology enables us to export high
-        quality products throughout the year.
-        <br />
-      </p>
-      <ul class="font-weight-bold" style="font-size: 18px;">
-        <li>Premium quality products</li>
-        <li>Most competitive prices</li>
-        <li>Ensure timely delivery</li>
-      </ul>
-    </div>
-  </section>
-  <br /><br />
-  <section>
-    <div class="container">
-      <h1 class="text-center">Product Gallery</h1>
       <div class="row">
-        <div class="col-sm-4 mx-auto">
-          <div class="card">
-            <img class="card-img-top product_img"
-              src="https://images.unsplash.com/photo-1589536677029-c0aa1808fba6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
-              alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title text-center">Spices</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="./products/spices.html" class="btn button">Learn More</a>
+        <div class="col-sm-7">
+          <p style="text-align: justify; font-size: 18px;">
+            Hamsa Overseas is established with the objective of providing
+            high-quality Spices, herbs, oil seeds, fresh fruits & vegetables and
+            multiple agro products under one roof complying with export quality
+            standards & specification of different countries across the globe.
+            We have 3 generations of rich experience in trading and rearing
+            farms and orchards. Implementing new technology enables us to export
+            high quality products throughout the year.
+            <br />
+          </p>
+        </div>
+        <div class="col-sm-5">
+          <ul class="font-weight-bold" style="font-size: 18px;">
+            <li><h2>Premium quality products</h2></li>
+            <li><h2>Most competitive prices</h2></li>
+            <li><h2>Ensure timely delivery</h2></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <section>
+      <div class="container">
+        <h1 class="text-center">Product Gallery</h1>
+        <div class="row">
+          <div class="col-sm-4 mx-auto">
+            <div class="card">
+              <img
+                class="card-img-top product_img"
+                src="https://images.unsplash.com/photo-1589536677029-c0aa1808fba6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Spices</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="./products/spices.html" class="btn button"
+                  >Learn More</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-4 mx-auto">
-          <div class="card">
-            <img class="card-img-top product_img"
-              src="https://static5.depositphotos.com/1000152/533/i/450/depositphotos_5334145-stock-photo-seeds-and-nuts.jpg"
-              alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title text-center">Oil Seeds</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="./products/oil_seeds.html" class="btn button">Learn More</a>
+          <div class="col-sm-4 mx-auto">
+            <div class="card">
+              <img
+                class="card-img-top product_img"
+                src="https://static5.depositphotos.com/1000152/533/i/450/depositphotos_5334145-stock-photo-seeds-and-nuts.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Oil Seeds</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="./products/oil_seeds.html" class="btn button"
+                  >Learn More</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-4 mx-auto">
-          <div class="card">
-            <img class="card-img-top product_img"
-              src="https://images.unsplash.com/photo-1551088736-ae222c3d3f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-              alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title text-center">Herbs and Botanicals</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="./products/herbs_botanical.html" class="btn button">Learn More</a>
+          <div class="col-sm-4 mx-auto">
+            <div class="card">
+              <img
+                class="card-img-top product_img"
+                src="https://images.unsplash.com/photo-1551088736-ae222c3d3f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Herbs and Botanicals</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="./products/herbs_botanical.html" class="btn button"
+                  >Learn More</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-4 mx-auto">
-          <div class="card">
-            <img class="card-img-top product_img"
-              src="https://wholegrainscouncil.org/sites/default/files/thumbnails/image/Assorted-grains-nuts-beans-iStock_000019335226.jpg"
-              alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title text-center">Pulses and Grains</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="./products/pulses.html" class="btn button">Learn More</a>
+          <div class="col-sm-4 mx-auto">
+            <div class="card">
+              <img
+                class="card-img-top product_img"
+                src="https://wholegrainscouncil.org/sites/default/files/thumbnails/image/Assorted-grains-nuts-beans-iStock_000019335226.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Pulses and Grains</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="./products/pulses.html" class="btn button"
+                  >Learn More</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-4 mx-auto">
-          <div class="card">
-            <img class="card-img-top product_img"
-              src="https://images.unsplash.com/photo-1573246123716-6b1782bfc499?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1560&q=80"
-              alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title text-center">Fruits and Vegetables</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="./products/fruits_vegetables.html" class="btn button">Learn More</a>
+          <div class="col-sm-4 mx-auto">
+            <div class="card">
+              <img
+                class="card-img-top product_img"
+                src="https://images.unsplash.com/photo-1573246123716-6b1782bfc499?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1560&q=80"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Fruits and Vegetables</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="./products/fruits_vegetables.html" class="btn button"
+                  >Learn More</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <br /><br /><br />
+    </section>
+    <br /><br /><br />
 
-  <section>
-    <div class="container">
-      <h1 class="text-center">Certification</h1>
-      <br /><br />
-      <div class="row">
-        <div class="col-sm-4 mx-auto mb-5">
-          <img src="./static/img/fieo.jpg" alt="" class="certificationImg" />
-        </div>
-        <div class="col-sm-4 mx-auto px-2 mb-5">
-          <img src="./static/img/apeda.png" alt="" class="certificationImg" />
-        </div>
-        <div class="col-sm-4 mx-auto px-2 mb-5">
-          <img src="./static/img/msme.jpg" alt="" class="certificationImg" />
+    <section>
+      <div class="container">
+        <h1 class="text-center">Certification</h1>
+        <br /><br />
+        <div class="row">
+          <div class="col-sm-4 mx-auto mb-5">
+            <img src="./static/img/fieo.jpg" alt="" class="certificationImg" />
+          </div>
+          <div class="col-sm-4 mx-auto px-2 mb-5">
+            <img src="./static/img/apeda.png" alt="" class="certificationImg" />
+          </div>
+          <div class="col-sm-4 mx-auto px-2 mb-5">
+            <img src="./static/img/msme.jpg" alt="" class="certificationImg" />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <br /><br /><br />
-  <div style="height: 50px;"></div>
+    </section>
+    <br /><br /><br />
+    <div style="height: 50px;"></div>
 
-  <div id="footer"></div>
+    <div id="footer"></div>
 
-  <script src="./static/js/main.js"></script>
-</body>
-
+    <script src="./static/js/main.js"></script>
+  </body>
 </html>
