@@ -1,265 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nutmeg | Hamsa Overseas</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="../../static/css/style.css" />
-    <style>
-      p {
-        text-align: justify;
-      }
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="../../index.html">
-        <img
-          src="/docs/4.0/assets/brand/bootstrap-solid.svg"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt=""
-        />
-        Hamsa Overseas
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../../index.html">Home </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Products
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../spices.html">Spices</a>
-              <a class="dropdown-item" href="../oil_seeds.html">Oil Seeds</a>
-              <a class="dropdown-item" href="../herbs_botanical.html"
-                >Herbs and Botanicals</a
-              >
-              <a class="dropdown-item" href="../pulses.html"
-                >Pulses and Grains</a
-              >
-              <a class="dropdown-item" href="../fruits_vegetables.html"
-                >Fruits and Vegetables</a
-              >
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../enquiry.html">Enquiry </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../contactus.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutmeg | Hamsa Overseas</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/static/css/owl.carousel.css" />
+  <link rel="stylesheet" href="/static/css/owl.theme.default.css" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <style>
+    p {
+      text-align: justify;
+    }
+  </style>
+  <script src="/static/js/jquery-3.3.1.js"></script>
+  <script src="/static/js/popper.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("/navbar.html");
+      $("#footer").load("/footer.html");
+    });
+  </script>
+</head>
 
-    <div style="height: 60px;"></div>
-
-    <div class="container">
-      <h1 class="text-center">Nutmeg</h1>
-      <div>
-        <br />
-        <img
-          class="img-fluid itemImg"
-          style="display: block; margin: auto;"
-          src="https://www.plantbasednews.org/.image/t_share/MTcyMTUzNjQxMzU5MTg5MjA0/turmeric.jpg"
-          alt=""
-        />
-        <br /><br />
-      </div>
-      <div class="row">
-        <div class="col-sm-8 mx-auto">
-          <p>
-            <span class="font-weight-bold">Botanical Name: &nbsp;</span
-            >MYRISTICA FRAGRANS
-          </p>
-          <p>
-            Nutmeg is a smooth, dark brown nut with light brown or brown
-            wrinkled seeds. It is about 20 mm to 30 mm (1 inch) long and 15 mm
-            to 18 mm wide, and weighing between 5 g and 10 g. Nutmeg is used in
-            the perfumery and pharmaceutical industries.
-          </p>
-          <p>
-            <span class="font-weight-bold">Properties: &nbsp;</span>
-          </p>
-          <ul>
-            <li>Moisture Content: Max 10 %</li>
-            <li>E. Coli: Max 3.0 MPN/G</li>
-            <li>Packaging: Jute or paper bag</li>
-          </ul>
+<body>
+  <div id="header"></div>
+  <div style="height: 150px;"></div>
+  <div class="container">
+    <div class="owl-carousel owl-theme owl-loaded">
+      <div class="owl-stage-outer">
+        <div class="owl-stage">
+          <div class="owl-item">
+            <img class="productItemCarouselImg" src="/static/img/products/nutmeg/1.jpg" alt="">
+          </div>
         </div>
       </div>
     </div>
-    <br /><br /><br />
-    <footer
-      class="page-footer font-small unique-color-dark text-white"
-      style="background-color: rgb(54, 54, 54);"
-    >
-      <div style="background-color: #6351ce;">
-        <div class="container">
-          <!-- Grid row-->
-          <div class="row py-4 d-flex align-items-center">
-            <!-- Grid column -->
-            <div
-              class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0"
-            >
-              <h6 class="mb-0">Get connected with us on social networks!</h6>
-            </div>
-            <div
-              class="col-md-6 col-lg-7 text-center text-md-right"
-              style="font-size: 34px;"
-            >
-              <!-- Facebook -->
-              <a class="fb-ic">
-                <i class="fa fa-facebook-f white-text mr-4"> </i>
-              </a>
-              <!-- Twitter -->
-              <a class="tw-ic">
-                <i class="fa fa-twitter white-text mr-4"> </i>
-              </a>
-              <!--Linkedin -->
-              <a class="li-ic">
-                <i class="fa fa-linkedin white-text mr-4"> </i>
-              </a>
-              <!--Instagram-->
-              <a class="ins-ic">
-                <i class="fa fa-instagram white-text"> </i>
-              </a>
-            </div>
-          </div>
-        </div>
+    <br><br>
+    <h1 class="text-center">Nutmeg</h1>
+    <br>
+    <div class="row">
+      <div class="col-sm-8 mx-auto">
+        <p>
+          <span class="font-weight-bold">Botanical Name: &nbsp;</span>MYRISTICA FRAGRANS
+        </p>
+        <p>
+          Nutmeg is a smooth, dark brown nut with light brown or brown
+          wrinkled seeds. It is about 20 mm to 30 mm (1 inch) long and 15 mm
+          to 18 mm wide, and weighing between 5 g and 10 g. Nutmeg is used in
+          the perfumery and pharmaceutical industries.
+        </p>
+        <p>
+          <span class="font-weight-bold">Properties: &nbsp;</span>
+        </p>
+        <ul>
+          <li>Moisture Content: Max 10 %</li>
+          <li>E. Coli: Max 3.0 MPN/G</li>
+          <li>Packaging: Jute or paper bag</li>
+        </ul>
       </div>
+    </div>
+  </div>
+  <br /><br /><br />
+  <div id="footer"></div>
+  <script src="/static/js/owl.carousel.js"></script>
+  <script src="/static/js/main.js"></script>
+</body>
 
-      <div class="container text-center text-md-left mt-5">
-        <div class="row mt-3">
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">Company name</h6>
-            <hr
-              class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px;"
-            />
-            <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">Products</h6>
-            <hr
-              class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px;"
-            />
-            <p>
-              <a href="#!">MDBootstrap</a>
-            </p>
-            <p>
-              <a href="#!">MDWordPress</a>
-            </p>
-            <p>
-              <a href="#!">BrandFlow</a>
-            </p>
-            <p>
-              <a href="#!">Bootstrap Angular</a>
-            </p>
-          </div>
-
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-            <hr
-              class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px;"
-            />
-            <p>
-              <a href="#!">Your Account</a>
-            </p>
-            <p>
-              <a href="#!">Become an Affiliate</a>
-            </p>
-            <p>
-              <a href="#!">Shipping Rates</a>
-            </p>
-            <p>
-              <a href="#!">Help</a>
-            </p>
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase font-weight-bold">Contact</h6>
-            <hr
-              class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-              style="width: 60px;"
-            />
-            <p>
-              <i class="fa fa-home mr-3" style="font-size: 20px;"></i> New York,
-              NY 10012, US
-            </p>
-            <p>
-              <i class="fa fa-envelope mr-3" style="font-size: 20px;"></i>
-              info@example.com
-            </p>
-            <p>
-              <i class="fa fa-phone mr-3" style="font-size: 20px;"></i> + 01 234
-              567 88
-            </p>
-            <p>
-              <i class="fa fa-print mr-3" style="font-size: 20px;"></i> + 01 234
-              567 89
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright text-center py-3">
-        © 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-      </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
