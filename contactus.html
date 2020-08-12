@@ -89,48 +89,56 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 mx-auto">
-            <form class="form_border p-5">
+            <form id="contactForm" class="form_border p-5">
+             <p style="color: red;"> * Required </p><br>
               <div class="form-group">
-                <label for="inputAddress">Name</label>
+                <label for="inputAddress">Name <span style="color: red;">*</span> </label>
                 <input
                   type="text"
                   class="form-control"
-                  id="inputAddress"
+                  id="name"
+                  name="name"
                   placeholder="Enter your name here"
+                  required
                 />
               </div>
               <div class="form-group">
-                <label for="inputAddress">Email</label>
+                <label for="inputAddress">Email <span style="color: red;">*</span></label>
                 <input
-                  type="text"
+                  type="email"
                   class="form-control"
-                  id="inputAddress"
+                  id="email"
                   placeholder="Enter your email here"
+                  name="email"
+                  required
                 />
               </div>
               <div class="form-group">
-                <label for="inputAddress">Mobile</label>
+                <label for="inputAddress">Mobile <span style="color: red;">*</span></label>
                 <input
-                  type="text"
+                  type="tel"
                   class="form-control"
-                  id="inputAddress"
-                  placeholder="Enter your mobile numberhere"
+                  id="mobile"
+                  name="mobile"
+                  placeholder="Enter your mobile number here"
+                  required
                 />
               </div>
 
               <div class="form-group">
-                <label for="message">Message</label>
+                <label for="message">Message <span style="color: red;">*</span></label>
                 <textarea
                   class="form-control"
                   rows="5"
                   id="message"
                   placeholder="Enter your message here"
                   value=""
+                  name="message"
+                  required
                 ></textarea>
               </div>
               <br />
-
-              <button type="submit" class="btn button">Send</button>
+              <button id="submitButton" type="submit" class="btn button">Send</button>
             </form>
           </div>
         </div>
