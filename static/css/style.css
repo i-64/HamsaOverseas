@@ -6,6 +6,11 @@ body {
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-style: italic;
+  font-weight: 700;
+}
+
 .navLogo {
   width: 400px;
   height: 44px;
@@ -67,6 +72,8 @@ body {
 
 .aboutMotto {
   font-size: 34px;
+  font-weight: 400;
+    font-style: normal;
 }
 
 @media only screen and (max-width: 600px) {
