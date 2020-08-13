@@ -37,11 +37,11 @@ body {
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
   color: #fff;
-  background-color: #b30000;
+  background-color: #e60000;
   border-radius: 6px;
   border-width: 2px;
   border-style: solid;
-  border-color: #b30000;
+  border-color: #e60000;
 }
 
 .carouselImg {
@@ -96,17 +96,17 @@ body {
 
 .button {
   color: white;
-  background-color: #b30000;
+  background-color: #e60000;
   border-radius: 6px;
   border-width: 2px;
   border-style: solid;
-  border-color: #b30000;
+  border-color: #e60000;
   font-weight: 600;
   font-size: 15px;
 }
 
 .button:hover {
-  color: #b30000;
+  color: #e60000;
   background-color: white;
 }
 
