@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us | Hamsa Overseas</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -24,6 +21,13 @@
         $("#footer").load("footer.html");
       });
     </script>
+    <style>
+      @font-face {
+  font-family: Expressa;
+  src: url(/static/fonts/Expressa-Serial-Bold.ttf);
+  font-weight: bold;
+}
+    </style>
   </head>
 
   <body>
@@ -42,27 +46,43 @@
           ></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
               class="d-block w-100 carouselImgAbout"
-              src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80"
-              alt="First slide"
+              src="/static/img/about_slider/1.webp"
+              alt=""
             />
           </div>
           <div class="carousel-item">
             <img
               class="d-block w-100 carouselImgAbout"
-              src="https://images.unsplash.com/photo-1589792923962-537704632910?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-              alt="Second slide"
+              src="/static/img/about_slider/2.webp"
+              alt=""
             />
           </div>
           <div class="carousel-item">
             <img
               class="d-block w-100 carouselImgAbout"
-              src="https://images.unsplash.com/photo-1549194388-2469d59ec75c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80"
-              alt="Third slide"
+              src="/static/img/about_slider/3.webp"
+              alt=""
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 carouselImgAbout"
+              src="/static/img/about_slider/4.webp"
+              alt=""
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 carouselImgAbout"
+              src="/static/img/about_slider/5.webp"
+              alt=""
             />
           </div>
         </div>
@@ -91,9 +111,11 @@
       <div class="container">
         <h1 class="text-center text-uppercase">About Us</h1>
         <br /><br />
-        <div
+
+        <div class="col-sm-10 mx-auto">
+          <div
           class="d-flex flex-row justify-content-around text-center"
-          style="font-family: 'Pacifico', cursive;"
+          style="font-family: Expressa;"
         >
           <div>
             <h1 class="aboutMotto">You Demand</h1>
@@ -107,6 +129,8 @@
             <h1 class="aboutMotto">We Supply</h1>
           </div>
         </div>
+        </div>
+       
         <br />
         <div class="row">
           <div class="col-sm-10 mx-auto">
