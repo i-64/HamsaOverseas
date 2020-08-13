@@ -49,6 +49,21 @@ h1 {
   border-color: #e60000;
 }
 
+/*Show dropdown when hovered*/
+/*
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+*/
+
+.dropdown-item:hover{
+  background-color: #e60000;
+  color: #fff;
+}
+
 .carouselImg {
   width: 100vw;
   height: 92vh;
